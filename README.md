@@ -1,0 +1,1 @@
+# mantine-provider-error-example
