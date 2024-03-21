@@ -9,7 +9,7 @@ vite-component-library-template is simply [exporting](https://github.com/RabeeAb
 
 To run the project run `pnpm i` on both directories (vite-component-library-template first) and then `pnpm run dev` on the remix-template directory.
 
-After making changes, run `pnpm run build:lib` on the vite-component-library-template and then `pnpm i` on the remix-template directory.
+If you make changes in the component library, for them to take effect, run `pnpm run build:lib` on the vite-component-library-template and then `pnpm i` on the remix-template directory.
 
 Error after running the Remix app:
 
