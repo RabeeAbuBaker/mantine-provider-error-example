@@ -19,7 +19,7 @@
     "./dist/style.css": "./dist/style.css"
   },
   "engines": {
-    "node": "18"
+    "node": ">=18.0.0"
   },
   "type": "module",
   "scripts": {
@@ -35,8 +35,10 @@
   "dependencies": {
     "@mantine/core": "^7.6.1",
     "@mantine/hooks": "^7.6.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@rollup/plugin-typescript": "^11.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup-plugin-typescript-paths": "^1.5.0"
   },
   "devDependencies": {
     "@babel/core": "7.22.10",
@@ -79,6 +81,8 @@
     "vitest": "0.34.1"
   },
   "peerDependencies": {
+    "@mantine/core": "^7.6.1",
+    "@mantine/hooks": "^7.6.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
